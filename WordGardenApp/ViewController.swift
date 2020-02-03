@@ -77,6 +77,7 @@ class ViewController: UIViewController {
             let guess = ( guessCount == 1 ? "guess" : "guesses" )
             let guessLeft = ( wrongGuessesRemaining == 1 ? "guess left." : "guesses left.")
             guessCountLabel.text = "You've made \(guessCount) \(guess). You have \(wrongGuessesRemaining) \(guessLeft)"
+            
         }
         
     }
